@@ -3,7 +3,7 @@
 <#@ include file="../entityHelper.ttinclude" #>
 <# 
     // 数据库连接
-    var connectionString = @"server=127.0.0.1;port=3306;uid=root;password=cac-111.;character set=utf8mb4;";
+    var connectionString = @"server=127.0.0.1;port=3306;uid=root;password=cac-111.;character set=utf8;";
 
     // 需要解析的数据库
     var database = "dapper";
